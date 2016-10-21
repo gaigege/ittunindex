@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'Yanone Kaffeesatz';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Yanone Kaffeesatz Regular'), local('YanoneKaffeesatz-Regular'), url(../font/YDAoLskQQ5MOAgvHUQCcLV83L2yn_om9bG0a6EHWBso.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Yanone Kaffeesatz';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Yanone Kaffeesatz Regular'), local('YanoneKaffeesatz-Regular'), url(../font/YDAoLskQQ5MOAgvHUQCcLfGwxTS8d1Q9KiDNCMKLFUM.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    padding:35px 0 0;
+    /*margin:0 auto;*/
+    /*text-align:center;*/
+}
+
+.ribbon {
+    display: inline-block;
+}
+
+.ribbon:after, .ribbon:before {
+    margin-top: 0.5em;
+    content: "";
+    float: left;
+    border: 1.5em solid #428BCA;
+}
+
+.ribbon:after {
+    border-right-color: transparent;
+}
+
+.ribbon:before {
+    border-left-color: transparent;
+}
+
+.ribbon a{
+
+}
+
+.ribbon a:link, .ribbon a:visited {
+    color: #000;
+    text-decoration: none;
+    float: left;
+    height: 3.5em;
+    overflow: hidden;
+    border:1px solid white;
+}
+
+.ribbon span{
+    background:#428BCA;
+    display:inline-block;
+    line-height:3em;
+    padding:0 1em;
+    margin-top:0.5em;
+    position:relative;
+
+    -webkit-transition: background-color 0.2s, margin-top 0.2s; /* Saf3.2+, Chrome */
+    -moz-transition: background-color 0.2s, margin-top 0.2s; /* FF4+ */
+    -ms-transition: background-color 0.2s, margin-top 0.2s; /* IE10 */
+    -o-transition: background-color 0.2s, margin-top 0.2s; /* Opera 10.5+ */
+    transition: background-color 0.2s, margin-top 0.2s;
+}
+
+.ribbon a:hover span{
+    background:#FFD204;
+    margin-top:0;
+}
+
+.ribbon .active span{
+    background:#FFD204;
+    margin-top:0;
+}
+
+.ribbon span:before{
+    content:"";
+    position: absolute;
+    top:3em;
+    left:0;
+    border-right:0.5em solid #9B8651;
+    border-bottom:0.5em solid #fff;
+}
+
+.ribbon span:after{
+    conent:"";
+    position:absolute;
+    top:3em;
+    right:0;
+    border-left:0.5em solid  #9B8651;
+    border-bottom: 0.5em solid #fff;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 60px;
+    line-height: 40px;
+    padding-top: 30px;
+    /*margin-bottom: 32px;*/
+    font-weight: 500;
+    color: #428BCA;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-style: normal;
+}
+
+h2 span {
+    padding-top: 26px;
+    display: block;
+    font: 300 20px/24px 'Open Sans', sans-serif;
+}
+
+.text-1 {
+    font: 200 18px/40px 'Open Sans Condensed', sans-serif;
+    color: #428BCA;
+    margin-bottom: 9px;
+}
+
+.text-2 {
+    display: block;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 26px;
+}
+
+.color1 {
+    color: #428BCA;
+}
+
+.color2{
+    color:green;
+}
+
+.clear {
+    float: none !important;
+    clear: both;
+}
+.text-3{
+    color: #428BCA;
+}
+
+.download-ul ol{
+    float:left;
+    padding: 6px;
+    padding-top: 4px;
+}
+
+.color3{
+    color: #e3e3e3;
+}
+
+.expImg{
+    width: 641px;
+}
+
+.lp-12{
+    padding-left:32px;
+}
+
+.tp-30{
+    padding-top: 30px;
+}
+
+.banner-img{
+    width: 841px;
+}
